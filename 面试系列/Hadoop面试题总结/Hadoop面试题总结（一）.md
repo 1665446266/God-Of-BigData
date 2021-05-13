@@ -5,9 +5,9 @@
 
 ### 2、Hadoop运行模式  
 &emsp; 单机版、伪分布式模式、完全分布式模式  
-&emsp; 单机版：安装简单，几乎不用做任何配置，但仅限于调试用途
-&emsp; 伪分布式模式：在单节点上同时启动namenode、datanode、jobtracker、tasktracker、secondarynamenode等5个进程，模拟分布式运行的各个节点
-&emsp; 完全分布式模式：正常的Hadoop集群，由多个各司其职的节点构成
+&emsp; 单机版：安装简单，几乎不用做任何配置，但仅限于调试用途   
+&emsp; 伪分布式模式：在单节点上同时启动namenode、datanode、jobtracker、tasktracker、secondarynamenode等5个进程，模拟分布式运行的各个节点 
+&emsp; 完全分布式模式：正常的Hadoop集群，由多个各司其职的节点构成 
 
 ### 3、Hadoop生态圈的组件并做简要描述  
 &emsp; 1）Zookeeper：是一个开源的分布式应用程序协调服务,基于zookeeper可以实现同步服务，配置维护，命名服务。  
